@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  background: #333;
+  background: #fff;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -14,6 +14,10 @@ body {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.container--size-lg {
+  width: 1600px;
 }
 
 .row {
@@ -95,7 +99,7 @@ body {
   background-color: #D82A4C;
   display: inline-block;
   padding: 0 30px;
-  line-height: 46px;
+  line-height: 53px;
   min-width: 160px;
   text-align: center;
   transition: all 0.3s;
@@ -113,9 +117,11 @@ body {
   outline: 0;
   border: 0;
   font-family: inherit;
-  height: 46px;
-  padding: 10px;
-  line-height: 26px;
+  font-style: italic;
+  font-size: 14px;
+  height: 53px;
+  padding: 10px 32px;
+  line-height: 33px;
 }
 
 .header {
@@ -184,5 +190,116 @@ body {
   margin: 0;
   margin-bottom: 60px;
 }
+
+.section {
+  padding: 115px 0;
+}
+
+.section__title,
+.section__subtitle {
+  margin: 0;
+  text-align: center;
+}
+
+.section__title {
+  font-size: 48px;
+  color: #474747;
+  margin-bottom: 28px;
+}
+
+.section__subtitle {
+  font-size: 16px;
+  color: #9e9e9e;
+  line-height: 1.8;
+  max-width: 1000px;
+  margin: 0 auto 60px;
+}
+
+.card {
+  margin: 15px 0;
+}
+
+.card__img {
+  position: relative;
+  display: block;
+}
+
+.card__img > img {
+  display: block;
+  max-width: 100%;
+}
+
+.card__tag {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  padding: 10px 20px;
+  line-height: 30px;
+  color: #fff;
+  background-color: #D93B4E;
+  font-weight: 500;
+}
+
+.card__title {
+  font-size: 20px;
+  color: #474747;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+.card__content {
+  padding: 42px;
+  background-color: #EDF4F5;
+}
+
+.card__text {
+  font-size: 14px;
+  color: #878b8e;
+  margin-bottom: 32px;
+}
+
+.card__count {
+  color: #d93b4d;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.card__footer {
+  border-top: 1px solid #d4dee1;
+  padding: 15px 32px;
+  background: #EDF4F5;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #868C91;
+}
+
+.avatar__img {
+  display: block;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.avatar__name {
+  margin-right: 5px;
+}
+
+.avatar__type {
+  color: #D93B4E
+}
+
+.avatar--small > .avatar__img {
+  width: 48px;
+  height: 48px;
+}
+
+
 
 .w-100 { width: 100% !important; }
