@@ -124,6 +124,15 @@ body {
   line-height: 33px;
 }
 
+.form--wrapped {
+  background: white;
+  padding: 40px;
+}
+
+.form--wrapped .form-input {
+  background-color: #EDF4F8;
+}
+
 .header {
   margin-top: 60px;
   position: absolute;
@@ -205,6 +214,7 @@ body {
   font-size: 48px;
   color: #474747;
   margin-bottom: 28px;
+  font-weight: 600
 }
 
 .section__subtitle {
@@ -213,6 +223,18 @@ body {
   line-height: 1.8;
   max-width: 1000px;
   margin: 0 auto 60px;
+}
+
+.section--highlighted {
+  background-color: #D82A4C;
+}
+
+.section--highlighted .section__title {
+  color: white;
+}
+
+.section--less-pad {
+  padding: 50px 0;
 }
 
 .card {
@@ -299,7 +321,6 @@ body {
   width: 48px;
   height: 48px;
 }
-
 
 
 .w-100 { width: 100% !important; }
