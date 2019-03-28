@@ -149,11 +149,12 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
   .nav-item {
-    float: left;
-    margin: 0 24px;
+    display: inline-block;
+    margin: 0 12px;
   }
 
   .nav-item:first-child { margin-left: 0; }
@@ -163,13 +164,20 @@ body {
     text-decoration: none;
     color: white;
     font-weight: 600;
-    line-height: 46px;
+    padding: 10px;
+    line-height: 53px;
     transition: all 0.3s;
   }
 
-  .nav-link:hover {
+  .nav-link:hover,
+  .nav-link.is-active {
     border-bottom: 3px solid #D82A4C;
   }
+
+.nav--content .nav-link {
+  color: #4c4847;
+}
+
 
 .section-cover {
   padding-top: 106px;
@@ -223,6 +231,11 @@ body {
   line-height: 1.8;
   max-width: 1000px;
   margin: 0 auto 60px;
+}
+
+.section__nav {
+  font-size: 18px;
+  margin-bottom: 60px;
 }
 
 .section--highlighted {
